@@ -19,4 +19,4 @@ lalu masukan kode perintah untuk menjalankan script , kode ini untuk daftar dan 
 
 Cd jack
 
-php jack.php
+php nowar.php
