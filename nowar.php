@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("red"," ===========================\n");
 echo color("red","| Golek Voucher Gojek|\n");
-echo color("red","| ELING KARO KONCO |\n");
+echo color("red","| Auto create Gojek X Redeem voucher |\n");
 echo color("red","| github: kangkungbalap |\n");
 echo color("red","| fanspage :kangkunglovers|\n");
 echo color("red","| Creator : Pisma Tronik          |\n");
