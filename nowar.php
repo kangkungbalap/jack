@@ -3,10 +3,10 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("red"," ===========================\n");
 echo color("red","| Golek Voucher Gojek|\n");
-echo color("red","| Auto create Gojek X Redeem voucher |\n");
+echo color("red","| ELING KARO KONCO |\n");
 echo color("red","| github: kangkungbalap |\n");
 echo color("red","| fanspage :kangkunglovers|\n");
-echo color("red","| Creator : kangkungbalap          |\n");
+echo color("red","| Creator : Pisma Tronik          |\n");
 echo "| Version : Premium X pertalite      |\n";
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
@@ -68,28 +68,28 @@ echo " ===========================\n";
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$message);
-        echo "\n".color("yellow","!] Claim voc BELANJAINAJA");
+        echo "\n".color("yellow","!] Claim voc KEALFAYUK");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
         sleep(3);
-        $boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"BELANJAINAJA"}');
+        $boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"KEALFAYUK"}');
         $messageboba10 = fetch_value($boba10,'"message":"','"');
         if(strpos($boba10, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","+] Message: ".$messageboba10);
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$messageboba10);
-        echo "\n".color("yellow","!] Claim voc JEPANG");
+        echo "\n".color("yellow","!] Claim voc BELANJALAGI");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
         sleep(3);
-        $boba19 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"JEPANG"}');
+        $boba19 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"BELANJALAGI"}');
         $messageboba19 = fetch_value($boba19,'"message":"','"');
         if(strpos($boba19, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","+] Message: ".$messageboba19);
